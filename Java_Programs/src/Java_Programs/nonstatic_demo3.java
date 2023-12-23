@@ -13,8 +13,10 @@ public class nonstatic_demo3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("from main method");
-		nonstatic_demo3 dm=new nonstatic_demo3()
-;		
+		nonstatic_demo3 dm=new nonstatic_demo3();
+		Car cr=new Car();
+		System.out.println(cr.nofwheels);
+		System.out.println(Car.manufacturer);
 
 	}
 
