@@ -17,6 +17,7 @@ public class nonstatic_demo3 {
 		Car cr=new Car();
 		System.out.println(cr.nofwheels);
 		System.out.println(Car.manufacturer);
+		
 
 	}
 
