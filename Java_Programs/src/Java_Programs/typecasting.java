@@ -8,6 +8,16 @@ public class typecasting {
 		int i=65;
 		b=(byte)i;
 		System.out.println(b);
+		char ch='a';
+		int l=ch;
+		//implicit conversion small to big
+		
+		System.out.println(l);
+		
+		//explicit conversion big to small
+		int y=90;
+		char z=(char)y;
+		System.out.println(z);
 		
 
 	}
